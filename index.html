@@ -1,0 +1,250 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portafolio | Alexei Zepeda Leal</title>
+    <meta
+      name="description"
+      content="Portafolio de Alexei Zepeda Leal, desarrollador Full-Stack Junior."
+    />
+    <link rel="stylesheet" href="./vendor/normalize.css" />
+    <link rel="stylesheet" href="./styles/fonts.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+  <body class="page">
+    <header class="hero">
+      <img
+        class="hero__photo"
+        src="./images/profile.jpg"
+        alt="Retrato de Alexei Zepeda Leal"
+      />
+      <div class="hero__content">
+        <h1 class="hero__name">Alexei Zepeda Leal</h1>
+        <p class="hero__role">
+          <span class="hero__role-title">Desarrollador Full-Stack Junior</span>
+          <span class="hero__role-separator">|</span>
+          <span class="hero__role-tech">TypeScript, React, Node.js</span>
+        </p>
+        <p class="hero__about">
+          Soy desarrollador web junior con experiencia construyendo CRMs, ERPs,
+          aplicaciones y sitios web enfocados en conversión, además de manuales
+          de marca completos para negocios. Creé Blendance, una app de baile
+          social, y trabajo con HTML, CSS, JavaScript, React y TypeScript,
+          usando Git, GitHub y Figma. Disfruto resolver problemas de forma
+          estructurada, mantener un código claro y seguir aprendiendo para
+          crecer como desarrollador.
+        </p>
+        <nav class="hero__links" aria-label="Enlaces principales">
+          <a class="hero__link" href="#">Descargar CV</a>
+          <a
+            class="hero__link"
+            href="https://github.com/alexeeeeei"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Enlace a GitHub</a
+          >
+          <a class="hero__link" href="#contacto">Hablemos</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="content">
+      <section class="skills">
+        <h2 class="section-title">Habilidades y herramientas</h2>
+        <ul class="skills__list">
+          <li>
+            <img
+              class="skills__icon"
+              src="./images/skill-html.svg"
+              alt="HTML"
+            />
+          </li>
+          <li>
+            <img class="skills__icon" src="./images/skill-css.svg" alt="CSS" />
+          </li>
+          <li>
+            <img
+              class="skills__icon"
+              src="./images/skill-js.svg"
+              alt="JavaScript"
+            />
+          </li>
+          <li>
+            <img class="skills__icon" src="./images/skill-git.svg" alt="Git" />
+          </li>
+          <li>
+            <img
+              class="skills__icon"
+              src="./images/skill-github.svg"
+              alt="GitHub"
+            />
+          </li>
+          <li>
+            <img
+              class="skills__icon"
+              src="./images/skill-claude.svg"
+              alt="ClaudeCode"
+            />
+          </li>
+          <li>
+            <img
+              class="skills__icon"
+              src="./images/skill-chatgpt.svg"
+              alt="ChatGPT"
+            />
+          </li>
+        </ul>
+      </section>
+
+      <section class="projects">
+        <h2 class="section-title">Proyectos destacados</h2>
+        <ul class="projects__list">
+          <li class="card">
+            <div class="card__media">
+              <img
+                class="card__image"
+                src="./images/project-cafeteria.jpg"
+                alt="Página web de la cafetería Triple Peaks"
+              />
+              <div class="card__veil"></div>
+              <ul class="card__badges">
+                <li>
+                  <img
+                    class="card__badge"
+                    src="./images/badge-html.svg"
+                    alt="HTML"
+                  />
+                </li>
+                <li>
+                  <img
+                    class="card__badge"
+                    src="./images/badge-css.svg"
+                    alt="CSS"
+                  />
+                </li>
+              </ul>
+            </div>
+            <div class="card__body">
+              <h3 class="card__title">Página web de una cafetería</h3>
+              <p class="card__text">
+                Desarrollo de una landing page responsiva para una cafetería
+                siguiendo un brief de diseño. Incluye estructura semántica,
+                maquetación con Flexbox, creación de secciones nuevas y un
+                formulario de contacto funcional.
+              </p>
+              <p class="card__text">
+                Logro: Implementé desde cero el diseño completo de la página,
+                organicé el proyecto con buenas prácticas y publiqué la versión
+                final utilizando GitHub Pages.
+              </p>
+              <div class="card__links">
+                <a
+                  class="card__link card__link_type_demo"
+                  href="https://alexeeeeei.github.io/web_project_coffeeshop_es/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Demo en vivo</a
+                >
+                <a
+                  class="card__link card__link_type_repo"
+                  href="https://github.com/alexeeeeei/web_project_coffeeshop_es"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >GitHub</a
+                >
+              </div>
+            </div>
+          </li>
+          <li class="card">
+            <div class="card__media">
+              <img
+                class="card__image"
+                src="./images/project-blendance.jpg"
+                alt="Símbolo de código que representa el proyecto Blendance"
+              />
+              <div class="card__veil"></div>
+              <ul class="card__badges">
+                <li>
+                  <img
+                    class="card__badge"
+                    src="./images/badge-js.svg"
+                    alt="JavaScript"
+                  />
+                </li>
+                <li>
+                  <img
+                    class="card__badge"
+                    src="./images/badge-react.svg"
+                    alt="React"
+                  />
+                </li>
+              </ul>
+            </div>
+            <div class="card__body">
+              <h3 class="card__title">Blendance, app de baile social</h3>
+              <p class="card__text">
+                App de baile social para encontrar academias, eventos y parejas
+                de baile. Incluye perfiles de bailarines, chat y la función Faro
+                para conectar al instante con alguien con quien bailar.
+              </p>
+              <p class="card__text">
+                Logro: Publiqué la app en la App Store y en Google Play, y la
+                lancé con eventos presenciales en San Juan del Río.
+              </p>
+              <div class="card__links">
+                <a
+                  class="card__link card__link_type_demo"
+                  href="https://blendance.app"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Demo en vivo</a
+                >
+                <a
+                  class="card__link card__link_type_repo"
+                  href="https://github.com/alexeeeeei/blendance-app"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >GitHub</a
+                >
+              </div>
+            </div>
+          </li>
+        </ul>
+      </section>
+    </main>
+
+    <footer class="footer" id="contacto">
+      <h2 class="section-title footer__title">Contacto</h2>
+      <a class="footer__email" href="mailto:alex.tex101@gmail.com"
+        >alex.tex101@gmail.com</a
+      >
+      <ul class="footer__social">
+        <li>
+          <a class="footer__social-link" href="#"
+            ><img src="./images/social-facebook.svg" alt="Facebook"
+          /></a>
+        </li>
+        <li>
+          <a
+            class="footer__social-link"
+            href="https://www.instagram.com/alexeei01/"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><img src="./images/social-instagram.svg" alt="Instagram"
+          /></a>
+        </li>
+        <li>
+          <a class="footer__social-link" href="#"
+            ><img src="./images/social-linkedin.svg" alt="LinkedIn"
+          /></a>
+        </li>
+        <li>
+          <a class="footer__social-link" href="#"
+            ><img src="./images/social-x.svg" alt="X (Twitter)"
+          /></a>
+        </li>
+      </ul>
+    </footer>
+  </body>
+</html>
